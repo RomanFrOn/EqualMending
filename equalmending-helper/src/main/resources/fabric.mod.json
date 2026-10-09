@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "equalmending",
+  "version": "${version}",
+  "name": "Equal Mending Helper",
+  "description": "Client-side Mending durability helper. Tracks equipped armor durability and suggests a repair priority; does not alter server mechanics.",
+  "authors": ["RomanFr_"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.romanfr.equalmending.EqualMendingClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
